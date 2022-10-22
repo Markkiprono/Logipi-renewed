@@ -1,7 +1,7 @@
 const url =
   "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials";
-const ConsumerKey = "743uR3drPNInqt3wzGnE7DO3r7Tj9Oiw";
-const consumerSecret = "Wbx2dyZnAPoG5GI6";
+const ConsumerKey = "your consumer key";
+const consumerSecret = "your consumer secret";
 const axios = require("axios");
 
 const createToken = async (req, res, next) => {
